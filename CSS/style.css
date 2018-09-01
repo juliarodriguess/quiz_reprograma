@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Shadows+Into+Light');
+
+body {
+	background-color: #eeeeee;
+	font-family: 'Raleway', sans-serif;
+	width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
+
+.grid {
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px;
+	border: 2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px #cbcbcb;
+	position: relative;
+}
+
+.grid h1 {
+	font-size: 50pt;
+	text-align: center;
+	color: #444;
+	padding: 2px 0px;
+	border-radius: 50px;
+}
+
+.grid #question {
+	font-size: 30px;
+	color: #5a6772;
+
+}
+
+.buttons {
+	margin: auto; 
+	margin-top: 30px;
+	display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#button0, #button1, #button2 {
+    background-color: #c70c4cf0;
+    width: 100%;
+    font-size: 14pt;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 20px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+#progress {
+    color: #2b2b2b;
+    font-size: 15pt;
+    font-family: 'Shadows Into Light', cursive;
+    position: absolute;
+    bottom: 20%;
+}
+
+#button0:hover, #button1:hover, #button2:hover {
+    cursor: pointer;
+    background-color: #c50a4ab0;
+}
+
+#button0:focus, #button1:focus, #button2:focus {
+	outline: 0;
+}
+
+footer {
+	margin: auto;
+    position: absolute;
+    bottom: 0;
+    border-top: solid 2px #888;
+    margin-top: 50px;
+    height: 15%;
+    width: 90%;
+    left: 5%;
+}
+
+h2 {
+	text-align: center;
+    font-weight: 900;
+    color: #666;
+}
+
+.gif {
+	width: 80%;
+    height: auto;
+    padding-bottom: 60%;
+    position: relative;
+    margin: auto;
+}
